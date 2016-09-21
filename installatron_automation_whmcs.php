@@ -31,7 +31,7 @@ function installatron_autoinstall($vars)
     }
 
     $query = array(
-        "cmd"           => "import",
+        "cmd"           => "install",
         "background"    => "yes",//execute as a background process
         "application"   => "wordpress",
         "url"           => "http://".$vars["params"]["domain"],
