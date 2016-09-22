@@ -13,15 +13,15 @@ function installatron_autoinstall($vars)
         return;
     }
 
-    if($vars["params"]["customfields"]["Theme"] === "theme1")
+    if($vars["params"]["customfields"]["Theme"] === "divi")
     { 
         $contentid = "2wzimd6mgticcg4osc0sgk04g";
     }
-    else if($vars["params"]["customfields"]["Theme"] === "theme2")
+    else if($vars["params"]["customfields"]["Theme"] === "extra")
     {
         $contentid = "1s0s8kkcso44g8ymk0o42vnrx";
     }
-    else if($vars["params"]["customfields"]["Theme"] === "theme3")
+    else if($vars["params"]["customfields"]["Theme"] === "fitness")
     {
         $contentid = "cso44k8ym1s0s8kk02vnrxgo4";
     }
